@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import resume from '../assets/CV.pdf'
 
 function NavBar() {
     return (
@@ -32,18 +33,12 @@ function NavBar() {
 
                         <Nav.Item>
                             <Nav.Link as={Link} to="/">
-                                About
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link as={Link} to="/">
                                 Skills
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/">
+                            <Nav.Link as={Link} to="/project">
                                 Projects
                             </Nav.Link>
                         </Nav.Item>
@@ -56,7 +51,7 @@ function NavBar() {
 
                         <Nav.Item>
                             <Button
-                                href=""
+                                href={resume}
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
