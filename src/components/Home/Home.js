@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../assets/IMG_9963.jpeg";
 import Particle from "../Particles";
+import Type from "./Type";
 
 function Home() {
     return (
@@ -24,7 +25,7 @@ function Home() {
                 </h1>
 
                 <div style={{ padding: 50, textAlign: "left" }}>
-                    
+                    <Type />
                 </div>
                 </Col>
 
