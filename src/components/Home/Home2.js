@@ -44,7 +44,7 @@ function Home2() {
                     href="https://github.com/danielpsnz"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  social-icons2"
                   >
                     <AiFillGithub />
                   </a>
@@ -54,7 +54,7 @@ function Home2() {
                     href="https://twitter.com/danielpsnz"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  social-icons2"
                   >
                     <AiOutlineTwitter />
                   </a>
@@ -64,7 +64,7 @@ function Home2() {
                     href="https://www.linkedin.com/in/danielpsnz/"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  social-icons2"
                   >
                     <FaLinkedinIn />
                   </a>
@@ -74,7 +74,7 @@ function Home2() {
                     href="https://www.instagram.com/danielpsnz"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour home-social-icons"
+                    className="icon-colour social-icons2"
                   >
                     <AiFillInstagram />
                   </a>

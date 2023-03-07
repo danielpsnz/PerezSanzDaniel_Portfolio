@@ -31,6 +31,16 @@ function NavBar() {
                 <Navbar.Brand href="/" className="d-flex">
                     <h1 className="logo">Daniel Pérez</h1>
                 </Navbar.Brand>
+                <Navbar.Toggle
+                aria-controls="responsive-navbar-nav"
+                onClick={() => {
+                    updateExpanded(expand ? false : "expanded");
+                }}
+                >
+                <span></span>
+                <span></span>
+                <span></span>
+                </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
