@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
@@ -7,22 +7,30 @@ import { Link } from 'react-router-dom';
 import resume from '../assets/CV.pdf'
 
 function NavBar() {
+    const [expand, updateExpanded] = useState(false);
+    const [navColour, updateNavbar] = useState(false);
+  
+    function scrollHandler() {
+      if (window.scrollY >= 20) {
+        updateNavbar(true);
+      } else {
+        updateNavbar(false);
+      }
+    }
+  
+    window.addEventListener("scroll", scrollHandler);
+
     return (
         <Navbar
+            expanded={expand}
+            expand="md"
             fixed="top"
-            className="navbar"
+            className={navColour ? "sticky" : "navbar"}
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <h1>Daniel Pérez</h1>
+                    <h1 className="logo">Daniel Pérez</h1>
                 </Navbar.Brand>
-                <Navbar.Toggle
-                    aria-controls="responsive-navbar-nav"
-                >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
