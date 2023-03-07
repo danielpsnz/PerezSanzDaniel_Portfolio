@@ -345,3 +345,10 @@ html {
 .icon-colour {
   color: var(--main-secondary) !important;
 }
+
+/* SKILLS */
+/* PROJECTS */
+.project-section img {
+  height: 300px;
+  width: 500px;
+}

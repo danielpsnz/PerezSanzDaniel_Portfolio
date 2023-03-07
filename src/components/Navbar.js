@@ -50,7 +50,7 @@ function NavBar() {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/">
+                            <Nav.Link as={Link} to="/skills">
                                 Skills
                             </Nav.Link>
                         </Nav.Item>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Grid} from "@mui/material";
-import Container from 'react-bootstrap/Container';
+import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import project1Image from '../assets/fisicauned.png';
 import project2Image from '../assets/infridge.png';
@@ -10,10 +10,10 @@ import project4Image from '../assets/planner.png';
 function Project() {
     return (
         <section>
-            <Container fluid className="skills-section" id="skills">
+            <Container fluid className="project-section" id="project">
                 <Container>
                     <Row>
-                            <h1>My skills</h1>
+                            <h1>My projects</h1>
                     </Row>
                     <Row>
                         <Box>
@@ -24,10 +24,10 @@ function Project() {
                                         <h1 style={{fontSize: '2rem'}}>Blog about physics</h1>
                                         <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
                                             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://fisicauned.onrender.com'} target={"_blank"} rel="noopener noreferrer"><i className={'fisicauned-demo'}/>See demo</a>
                                             </Box>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://github.com/danielpsnz/fisica_uned'} target={"_blank"} rel="noopener noreferrer"><i className={'fisicauned-source'}/>See code</a>
                                             </Box>
                                         </Box>
@@ -39,10 +39,10 @@ function Project() {
                                         <h1 style={{fontSize: '2rem'}}>InFridge</h1>
                                         <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
                                             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://spooky-pictures.github.io/InFridge/'} target={"_blank"} rel="noopener noreferrer"><i className={'infridge-demo'}/>See demo</a>
                                             </Box>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://github.com/spOOky-pictures/InFridge'} target={"_blank"} rel="noopener noreferrer"><i className={'infridge-source'}/>See code</a>
                                             </Box>
                                         </Box>
@@ -54,10 +54,10 @@ function Project() {
                                         <h1 style={{fontSize: '2rem'}}>Code Quiz</h1>
                                         <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
                                             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://danielpsnz.github.io/PerezSanzDaniel_CodeQuiz/'} target={"_blank"} rel="noopener noreferrer"><i className={'codequiz-demo'}/>See demo</a>
                                             </Box>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://github.com/danielpsnz/PerezSanzDaniel_CodeQuiz'} target={"_blank"} rel="noopener noreferrer"><i className={'codequiz-source'}/>See code</a>
                                             </Box>
                                         </Box>
@@ -69,10 +69,10 @@ function Project() {
                                         <h1 style={{fontSize: '2rem'}}>Planner App</h1>
                                         <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
                                             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://danielpsnz.github.io/PerezSanzDaniel_PlannerApp/'} target={"_blank"} rel="noopener noreferrer"><i className={'planner-demo'}/>See demo</a>
                                             </Box>
-                                            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+                                            <Box className='button' p={1} border={'2px solid black'} borderRadius={'25px'}>
                                             <a href={'https://github.com/danielpsnz/PerezSanzDaniel_PlannerApp'} target={"_blank"} rel="noopener noreferrer"><i className={'planner-source'}/>See code</a>
                                             </Box>
                                         </Box>
