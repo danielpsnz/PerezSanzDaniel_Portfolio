@@ -117,13 +117,30 @@ html {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    margin-top: -50px;
-    font-size: 1.4rem;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: var(--main-secondary);
   }
 
-  .navbar-nav .nav-item a::after {
-    display: none !important;
+  .navbar .d-flex {
+    margin-top: -50px;
+    color: whitesmoke;
+  }
+
+  .navbar .navbar-toggler {
+    margin-top: -50px;
+  }
+
+  .navbar a {
+    margin: 10px 0;
+  }
+
+  .navbar .fork-btn {
+    margin: 25px 0;
   }
 }
 
