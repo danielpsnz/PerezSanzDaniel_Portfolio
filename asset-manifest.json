@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.17b087d9.css",
-    "main.js": "/static/js/main.d3583313.js",
-    "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
-    "static/media/fisicauned.png": "/static/media/fisicauned.9c8f41bd2fcafad7b019.png",
-    "static/media/IMG_9963.jpeg": "/static/media/IMG_9963.ce140376fc329d3e5f08.jpeg",
-    "static/media/infridge.png": "/static/media/infridge.34fb6a4c71dad2e83bb6.png",
-    "static/media/planner.png": "/static/media/planner.c4b6714c0762af3d9599.png",
-    "static/media/codequiz.png": "/static/media/codequiz.19a1b76cd417a6480b31.png",
-    "static/media/CV.pdf": "/static/media/CV.5bc7315ddf57c6ba9bd4.pdf",
-    "static/media/watercolor.jpg": "/static/media/watercolor.2036fa1d5880e9b8338b.jpg",
-    "static/media/aboutme.jpeg": "/static/media/aboutme.afdcaff4b314f4b86513.jpeg",
-    "static/media/pre.svg": "/static/media/pre.04f2d23d05f70397d20a.svg",
-    "index.html": "/index.html",
-    "main.17b087d9.css.map": "/static/css/main.17b087d9.css.map",
-    "main.d3583313.js.map": "/static/js/main.d3583313.js.map",
-    "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
+    "main.css": "/PerezSanzDaniel_ReactPortfolio/static/css/main.2ea18171.css",
+    "main.js": "/PerezSanzDaniel_ReactPortfolio/static/js/main.da0f6baa.js",
+    "static/js/787.c1112931.chunk.js": "/PerezSanzDaniel_ReactPortfolio/static/js/787.c1112931.chunk.js",
+    "static/media/fisicauned.png": "/PerezSanzDaniel_ReactPortfolio/static/media/fisicauned.9c8f41bd2fcafad7b019.png",
+    "static/media/IMG_9963.jpeg": "/PerezSanzDaniel_ReactPortfolio/static/media/IMG_9963.ce140376fc329d3e5f08.jpeg",
+    "static/media/infridge.png": "/PerezSanzDaniel_ReactPortfolio/static/media/infridge.34fb6a4c71dad2e83bb6.png",
+    "static/media/planner.png": "/PerezSanzDaniel_ReactPortfolio/static/media/planner.c4b6714c0762af3d9599.png",
+    "static/media/codequiz.png": "/PerezSanzDaniel_ReactPortfolio/static/media/codequiz.19a1b76cd417a6480b31.png",
+    "static/media/CV.pdf": "/PerezSanzDaniel_ReactPortfolio/static/media/CV.5bc7315ddf57c6ba9bd4.pdf",
+    "static/media/watercolor.jpg": "/PerezSanzDaniel_ReactPortfolio/static/media/watercolor.2036fa1d5880e9b8338b.jpg",
+    "static/media/aboutme.jpeg": "/PerezSanzDaniel_ReactPortfolio/static/media/aboutme.afdcaff4b314f4b86513.jpeg",
+    "static/media/pre.svg": "/PerezSanzDaniel_ReactPortfolio/static/media/pre.04f2d23d05f70397d20a.svg",
+    "index.html": "/PerezSanzDaniel_ReactPortfolio/index.html",
+    "main.2ea18171.css.map": "/PerezSanzDaniel_ReactPortfolio/static/css/main.2ea18171.css.map",
+    "main.da0f6baa.js.map": "/PerezSanzDaniel_ReactPortfolio/static/js/main.da0f6baa.js.map",
+    "787.c1112931.chunk.js.map": "/PerezSanzDaniel_ReactPortfolio/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17b087d9.css",
-    "static/js/main.d3583313.js"
+    "static/css/main.2ea18171.css",
+    "static/js/main.da0f6baa.js"
   ]
 }
