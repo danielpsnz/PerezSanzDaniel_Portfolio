@@ -4,7 +4,7 @@
   ## Description
     This is a personal portfolio done with React.js. 
     
-    ![Image](./screenshot.png)
+   ![alt text](./screenshot.png)
 
   ## Table of Contents
   - [Installation](#installation)
