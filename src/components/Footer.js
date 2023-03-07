@@ -59,10 +59,10 @@ function Footer() {
         </Col>
       </Row>
       <Row>
-      <Col md="4" className="footer-copywright">
+      <Col md="4" className="footer-copyrright">
           <h3>Daniel Pérez</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col md="4" className="footer-copyrright">
           <h3>Copyright © {year}</h3>
         </Col>
       </Row>

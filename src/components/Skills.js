@@ -24,42 +24,42 @@ function Skills() {
                     <Row className="row">
                         <div className='bar'>
                             <div className='info'>
-                              <img src={SiReact} alt="skill" />
+                              <div className='icon'><SiReact /></div>
                               <span>ReactJS</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                              <img src={SiNodedotjs} alt="skill" />
+                            <div className='icon'><SiNodedotjs /></div>
                               <span>NodeJS</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                              <img src={SiBootstrap} alt="skill" />
+                            <div className='icon'><SiBootstrap /></div>
                               <span>Bootstrap</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                              <img src={SiHtml5} alt="skill" />
+                            <div className='icon'><SiHtml5 /></div>
                               <span>HTML5</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                            <img src={SiJquery} alt="skill" />
+                            <div className='icon'><SiJquery /></div>
                             <span>jQuery</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                            <img src={SiGit} alt="skill" />
+                            <div className='icon'><SiGit /></div>
                             <span>Git VCS</span>
                             </div>
                         </div>
@@ -67,35 +67,35 @@ function Skills() {
                     <Row className="row">
                         <div class="bar">
                             <div class="info">
-                              <img src={SiCss3} alt="skill" />
+                            <div className='icon'><SiCss3 /></div>
                               <span>CSS3</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                              <img src={SiGithub} alt="skill" />
+                            <div className='icon'><SiGithub /></div>
                               <span>GitHub</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                              <img src={SiJavascript} alt="skill" />
+                            <div className='icon'><SiJavascript /></div>
                               <span>JavaScript</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                              <img src={SiPython} alt="skill" />
+                            <div className='icon'><SiPython /></div>
                               <span>Python</span>
                             </div>
                         </div>
 
                         <div class="bar">
                             <div class="info">
-                              <img src={SiCplusplus} alt="skill" />
+                            <div className='icon'><SiCplusplus /></div>
                               <span>C++</span>
                             </div>
                         </div>
