@@ -4,7 +4,6 @@ import homeLogo from "../../assets/IMG_9963.jpeg";
 import Particle from "../Particles";
 import Type from "./Type";
 import Home2 from "./Home2";
-import { color } from "@mui/system";
 
 function Home() {
     return (

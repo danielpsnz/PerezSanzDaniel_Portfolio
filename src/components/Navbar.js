@@ -4,7 +4,16 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-import resume from '../assets/CV.pdf'
+import { CgGitFork } from "react-icons/cg";
+import { ImBlog } from "react-icons/im";
+import {
+    AiFillStar,
+    AiOutlineHome,
+    AiOutlineFundProjectionScreen,
+    AiOutlineUser,
+  } from "react-icons/ai";
+import resume from '../assets/CV.pdf';
+import Contact from './Contact';
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
@@ -23,8 +32,8 @@ function NavBar() {
     return (
         <Navbar
             expanded={expand}
-            expand="md"
             fixed="top"
+            expand="md"
             className={navColour ? "sticky" : "navbar"}
         >
             <Container>
@@ -44,30 +53,28 @@ function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/">
+                            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                                 Home
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/skills">
+                            <Nav.Link as={Link} to="/skills" onClick={() => updateExpanded(false)}>
                                 Skills
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/project">
+                            <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
                                 Projects
                             </Nav.Link>
                         </Nav.Item>
 
-                        <Nav.Item>
-                            <Nav.Link as={Link} to="/">
-                                Contact me
-                            </Nav.Link>
+                        <Nav.Item className="fork-btn">
+                            <Contact />
                         </Nav.Item>
 
-                        <Nav.Item>
+                        <Nav.Item className="fork-btn">
                             <Button
                                 href={resume}
                                 target="_blank"

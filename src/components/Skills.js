@@ -16,10 +16,10 @@ import { SiCplusplus } from "react-icons/si";
 function Skills() {
     return (
         <section>
-            <Container fluid className="skills-section" id="skills">
+            <Container fluid className="skills" id="skills">
                 <Container>
                     <Row className="row">
-                        <h1>My skills</h1>
+                        <h1>Skills</h1>
                     </Row>
                     <Row className="row">
                         <div className='bar'>
