@@ -31,7 +31,7 @@ function Home2() {
             </Col>
             <Col md={4} className="myImg">
               <Tilt>
-                <img src={myImg} className="img-fluid" alt="a photo of me" />
+                <img src={myImg} className="img-fluid" alt="myself" />
               </Tilt>
             </Col>
           </Row>
