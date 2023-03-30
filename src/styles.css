@@ -380,6 +380,7 @@ html {
   background: rgba(255, 255, 255, 0.972);
   border-radius: 50%;
   transition: 0.5s;
+  margin-bottom: 30px;
 }
 
 .social-icons2::before {
@@ -423,6 +424,8 @@ html {
   bottom: 0 ;
   padding-top: 10px ;
   padding-bottom: 8px ;
+  position: fixed;
+  width: 100%;
 }
 
 .footer-copyrright {
